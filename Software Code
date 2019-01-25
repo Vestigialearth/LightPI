@@ -1,18 +1,44 @@
 BulbDevice;
+//Create instance of a smart bulb device
+
+Initialize():
+//Initialize the smart device
+
 varBulbStatus;
-
+//Monitor the status (ON/OFF/WAITING)
 varButton;
-
-Toggle():
+//Create an instance for the button
+Toggle(): 
+//Method to toggle the varBulbStatus variable
 {
 varOn;
+//On
 varIsWaiting;
+//Waiting for input/might handle conflicts
 varOff;
+//Off
 varSleep;
+//Is not taking any inputs
 }
 
 varRGB;
+//Method to make and manage a dynamic RGB light
+varClock;
+//Clock to manage the on/off status
+VarTimer;
+//Timer to manage the on/off status
 
+ListDevices():
+//Method to show devices on the active network
+
+Sleep():
+//Prevents the smart device from turning on/off
+varSleep;
+//Is not taking any inputs
+
+print("Current environment directory:" + sys.prefix) 
+print("System version: "+sys.version) 
+print("Current working directory: "+os.getcwd()) 
 
 
 
