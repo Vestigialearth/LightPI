@@ -1,11 +1,12 @@
 # LightPI
+
 Creating an API for my COMP 349 Class
 
 Distributed-Systems assignment #1
 
 Premise:
 
-In our assignment, we are going to simulate some smart devices, focusing on how to maintain state and control one or more of them. To make things interesting, we will also have background “threads” that support timers (to turn the device off after a certain amount of elapsed time) and events (on at certain time, off at certain time). We will also have reporting (logs) that allow us to see all events and usage information associated with these smart devices.
+In our assignment, we are going to simulate some smart devices, focusing on how to maintain state and control one or more of them. Additionally, We will also have reporting (logs) that allow us to see all events and usage information associated with these smart devices.
 
 Process:
 
